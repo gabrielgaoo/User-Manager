@@ -11,4 +11,28 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>com.mycompany.usermanager.UserManager</exec.mainClass>
     </properties>
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.36.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.claytonfraga</groupId>
+            <artifactId>validadorsenha</artifactId>
+            <version>master-c949bd44ba-1</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
 </project>
